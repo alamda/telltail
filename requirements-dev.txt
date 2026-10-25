@@ -1,0 +1,7 @@
+# Dev/test dependencies, fully pinned. Install on top of requirements.txt:
+#   .venv/bin/pip install -r requirements-dev.txt
+pytest==9.1.1
+# Transitive:
+iniconfig==2.3.0
+pluggy==1.6.0
+Pygments==2.20.0

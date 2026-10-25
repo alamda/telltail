@@ -1,0 +1,45 @@
+# symlinked dotfiles
+dotfiles
+
+# data: raw LANL dumps
+data/
+*.gz
+*.txt.gz
+
+# model artifacts & outputs
+models/
+outputs/
+results/
+*.pkl
+*.joblib
+*.npy
+*.parquet
+*.out
+
+# plots
+*.png
+*.pdf
+*.svg
+# except figures published in the README
+!docs/*.png
+
+# python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+env/
+.ipynb_checkpoints/
+*.egg-info/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# env / secrets
+.env
+.env.local
+
+# os / editor
+.DS_Store
+.idea/
+.vscode/
